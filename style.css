@@ -1,0 +1,255 @@
+body{
+	background-image:url(img/bg.jpg);
+	color:#000305;
+	font-size: 14px;
+	font-family:Arial, 'Lucida Sans Unicode';/*more space,broad font*/
+	line-height:1.5;/*distance b/w two adjancent next lines*/
+	text-align:left;/*wht diff*/
+	
+}
+
+a{/*for link*/
+	text-decoration:none; /*remve undrline*/
+}
+
+.content a:link, .content a:visited{
+	color:#CF5C3F;
+}
+
+
+.body{
+	margin:0 auto;
+	width:1080px;/*or 80%*/
+	clear:both;/*clear floating element if any*/
+	
+}
+
+.mainheader img{
+	width:30%;
+	height:170px;
+	margin:5px 0px;
+}
+
+.mainheader nav{
+	width:1080px;
+	background-color:#666;
+	height:50px;
+	border-radius:5px;
+	-moz-border-radius:5px;/*for mozilla*/
+	-webkit-border-radius:5px;/*for webkit environment*/
+}
+.mainheader nav ul{
+	list-style:none;
+	margin:0 auto;
+}
+
+.mainheader nav ul li{
+	float:left;/*why here*//*it suppressed space inline b/w eachothr*/
+	display:inline;
+}
+.mainheader nav a:link, .mainheader nav a:visited {
+	color: #FFF;
+	display:inline-block;/*function??*/
+	padding:10px 25px;
+	/*assign height*/height:20px;
+	
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited
+{
+	/*menucolor absent(due background)*/background-color:#CF5C3F;
+	text-shadow:none;
+	
+}
+.mainheader nav ul li a{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.maincontent {
+	line-height:30px;
+	border-radius:5px;
+	-moz-border-radius:5px;/*for mozilla*/
+	-webkit-border-radius:5px;/*for webkit environment*/
+	/*overflow:hidden for containers overlapping*/
+}
+.content{
+	width:70%;
+	float:left  /*for pushing articlecontent container left*/
+	
+}
+.topcontent, .bottomcontent{
+	margin:20px 0px;
+	margin-right:20px;
+	padding:51px 50px;
+	padding-bottom:59px;
+	background-color:#FFF;
+	border-radius:5px;
+	-moz-border-radius:5px;/*for mozilla*/
+	-webkit-border-radius:5px;/*for webkit environment*/	
+}
+/*About us css*/
+.top-sidebar1, .middle-sidebar1, .bottom-sidebar1{
+	margin-top:20px;
+	margin-bottom:5px;
+	margin-left:5px;
+	width:25%;
+	float:left;
+	padding:9px 23px;
+	background-color:#FFF;
+	border-radius:5px;
+	-moz-border-radius:5px;/*for mozilla*/
+	-webkit-border-radius:5px;/*for webkit environment*/
+}
+.topcontent1{
+	line-height:28px;
+	margin-top:20px;
+	margin-right:20px;
+	padding:11px 10px;
+	background-color:#FFF;
+	border-radius:3px;
+	-moz-border-radius:3px;/*for mozilla*/
+	-webkit-border-radius:3px;/*for webkit environment*/	
+}
+.bottomcontent1{
+	margin-right:20px;
+	padding:10px 10px;
+	/*padding-bottom:59px;*/
+	background-color:#FFF;
+	border-radius:3px;
+	-moz-border-radius:3px;/*for mozilla*/
+	-webkit-border-radius:3px;/*for webkit environment*/	
+}
+
+/*done about us*/
+.post-info{
+	font-style:italic;
+	color:#999;
+	font-size:13px;
+}
+/*contact*/
+.contact{
+	margin-top:20px;
+	margin-right:20px;
+	padding:50px 50px;
+	padding-bottom:136px;
+	background-color:#FFF;
+	border-radius:5px;
+	-moz-border-radius:5px;/*for mozilla*/
+	-webkit-border-radius:5px;/*for webkit environment*/	
+}
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar{
+	margin-top:20px;
+	margin-bottom:5px;
+	margin-left:5px;
+	width:25%;
+	float:left;
+	padding:5px 23px;
+	background-color:#FFF;
+	border-radius:5px;
+	-moz-border-radius:5px;/*for mozilla*/
+	-webkit-border-radius:5px;/*for webkit environment*/
+}
+
+
+.mainfooter{
+	background-color:#666;
+	margin:2% auto;
+	width:100%;
+	padding-left:10px;
+	float:left;/*this reduced footcolor in middle edges back had became grey*/
+	border-radius:5px;
+	-moz-border-radius:5px;/*for mozilla*/
+	-webkit-border-radius:5px;/*for webkit environment*/
+}
+.para1 a:link, .para1 a:visited,.para2 a:link, .para2 a:visited{
+	color:#0000FF;
+}
+.para1 a:hover, .para2 a:hover{
+	background-color:#D3D3D3;
+	color:#00BFFF;
+}
+.para1{
+	width:70%;
+	float:left;
+	margin:1% auto;
+	color:#FFF;
+}
+.para2{
+	width:30%;
+	float:left;
+	margin:1% auto;
+	color:#FFF;
+}
+
+@media only screen and (min-width:150px) and (max-width:400px)
+{
+.body{
+	width:90%;/*or 80%*/
+	font-size:80%;
+}
+
+.mainheader img{
+	width:100%;
+	height:145px;
+	margin:5px 0px;
+}	
+
+.mainheader nav{
+	width:100%;
+	height:160px;
+}
+.mainheader nav ul{
+	padding-left:0;
+	margin-top:5px;
+}
+
+.mainheader nav ul li{
+	width:100%;/*imp to make them in nxt lin*/
+	text-align:center;
+}
+.mainheader nav a:link, .mainheader nav a:visited {
+	display:block;/*function??*/
+	padding:10px 25px;
+	/*assign height*/height:20px;
+	
+}
+.maincontent {
+	line-height:25px;
+	border-radius:5px;
+	-moz-border-radius:5px;/*for mozilla*/
+	-webkit-border-radius:5px;/*for webkit environment*/
+	/*overflow:hidden for containers overlapping*/
+}
+.content{
+	width:70%;
+	float:left  /*for pushing articlecontent container left*/
+	
+}
+.topcontent, .bottomcontent{
+	width:135%;
+	margin:20px 0px;
+	padding:10px 10px;
+}
+.top-sidebar, .middle-sidebar, .bottom-sidebar{
+	margin-top:0px;
+	margin-bottom:10px;
+	line-height:26px;
+	margin-left:0px;
+	width:100%;
+	padding:5px 0px 5px 5px;
+}
+.mainfooter{
+	margin:0% auto;
+	width:99%;
+	line-height:26px;
+	padding-left:20px 0px;
+	float:left;/*this reduced footcolor in middle edges back had became grey*/
+}
+	
+	
+
+}
+
