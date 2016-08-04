@@ -4,7 +4,7 @@ body{
 	font-size: 14px;
 	font-family:Arial, 'Lucida Sans Unicode';/*more space,broad font*/
 	line-height:1.5;/*distance b/w two adjancent next lines*/
-	text-align:left;/*wht diff*/
+	text-align:left;
 	
 }
 
@@ -44,12 +44,12 @@ a{/*for link*/
 }
 
 .mainheader nav ul li{
-	float:left;/*why here*//*it suppressed space inline b/w eachothr*/
+	float:left;/*it suppressed space inline b/w eachothr*/
 	display:inline;
 }
 .mainheader nav a:link, .mainheader nav a:visited {
 	color: #FFF;
-	display:inline-block;/*function??*/
+	display:inline-block;
 	padding:10px 25px;
 	/*assign height*/height:20px;
 	
@@ -109,8 +109,8 @@ a{/*for link*/
 	padding:11px 10px;
 	background-color:#FFF;
 	border-radius:3px;
-	-moz-border-radius:3px;/*for mozilla*/
-	-webkit-border-radius:3px;/*for webkit environment*/	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
 }
 .bottomcontent1{
 	margin-right:20px;
@@ -118,8 +118,8 @@ a{/*for link*/
 	/*padding-bottom:59px;*/
 	background-color:#FFF;
 	border-radius:3px;
-	-moz-border-radius:3px;/*for mozilla*/
-	-webkit-border-radius:3px;/*for webkit environment*/	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
 }
 
 /*done about us*/
